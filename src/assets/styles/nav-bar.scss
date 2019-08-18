@@ -7,6 +7,7 @@
   a {
     text-decoration: none;
     color: #5b7f81;
+    font-family: Alcubierre;
   }
 
   .links {
@@ -25,13 +26,18 @@
   }
 }
 
-.nav-company-logo {
+.badge {
   display: inline-block;
   margin: auto;
   position: absolute;
   top: 50%;
   left: 2%;
   transform: translateY(-50%);
+  width: 15vw;
+
+  img {
+    width: 100%;
+  }
 
   p {
     font-size: 3vw;

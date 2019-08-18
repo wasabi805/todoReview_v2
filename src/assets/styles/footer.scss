@@ -1,0 +1,96 @@
+#footer {
+  position: relative;
+  padding: 2vh 0;
+
+  a {
+    text-decoration: none;
+    color: #655f5f;
+    &:hover{
+      color: #e5edf3;
+    }
+  }
+
+  background: #2a2727;
+
+  .container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 3vw;
+
+    .row {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .col {
+      //border: 1px solid red;
+      margin: 0px 2vw;
+      width: 18%;
+    }
+
+    .col .three {
+      flex: 1 0 100%;
+    }
+  }
+}
+
+.footer-section-title {
+  padding: 3vh 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgba(255, 245, 253, 0.125);
+  font-size: 1.6rem;
+  color: #87899f;
+  font-weight: 400;
+}
+
+.footer-nav {
+  li {
+    list-style: none;
+    padding: 2vh 0;
+    font-size: 2vh;
+  }
+}
+
+.badge-container{
+  padding-top: 2rem;
+  position: relative;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: rgba(255, 245, 253, 0.125);
+
+  .lets-go-places{
+    width: 33%;
+  }
+
+  .classic-badge{
+    width: 23%;
+  }
+
+  .toyota-racing{
+    width: 44%;
+    display: inline-block;
+    transform: translateY(5%);
+  }
+
+}
+
+.subscribe{
+  padding: 2vh 0;
+  font-size: 2vh;
+}
+
+.white{
+  color: white;
+}
+
+.footer-subscribe-button{
+  margin-top: 2rem;
+  color: white;
+  position: absolute;
+  padding: 2rem 3rem;
+  border: 1px solid white;
+}
+

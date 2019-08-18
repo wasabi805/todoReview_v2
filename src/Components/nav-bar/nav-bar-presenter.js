@@ -1,10 +1,11 @@
 import React from "react";
+import trdLogo from "../../assets/images/trd-sport-vector-logo.png";
 
 const NavBarPresenter = props => {
   return (
     <nav id={"nav-bar"}>
-      <a href={"/"} className="nav-company-logo">
-        <p>Company Logo</p>
+      <a href={"/"} className="badge">
+        <img src={trdLogo} alt={""} />
       </a>
 
       <ul className="links">

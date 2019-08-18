@@ -4,6 +4,7 @@ import store from "../store";
 
 import NavBar from "./nav-bar/nav-bar-container";
 import Hero from "./hero/hero-container";
+import Footer from "./footer/footer-container"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
 
       <NavBar />
       <Hero />
+      <Footer/>
 
     </Provider>
   );
