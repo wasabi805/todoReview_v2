@@ -1,9 +1,5 @@
 #hero {
   min-height: 100vh;
-  //background-image: url("https://timocampobucketstuff.s3.amazonaws.com/cars-sports-tuning-toyota-supra-1920x1080-61716-web.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   z-index: 1;
 
   &:after {
@@ -11,6 +7,8 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
     z-index: 0;
     background-image: url("https://timocampobucketstuff.s3.amazonaws.com/cars-sports-tuning-toyota-supra-1920x1080-61716-web.jpg");
     opacity: 0.85;
@@ -21,7 +19,7 @@
     color: #bbc1c5;
     z-index: 10;
     font-size: 10vw;
-    top: 18%;
+    margin-top: 5vh;
     left: 4%;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   }
