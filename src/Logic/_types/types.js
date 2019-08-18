@@ -1,0 +1,1 @@
+export const TIM_SAMPLE_ACTION = "TIM_SAMPLE_ACTION"

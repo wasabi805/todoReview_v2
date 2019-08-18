@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+//Component Sass Stylesheets
+@import "styles/nav-bar";
+@import "styles/hero";
