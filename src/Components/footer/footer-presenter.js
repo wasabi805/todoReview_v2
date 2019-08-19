@@ -2,7 +2,7 @@ import React from "react";
 import letsGoPlaces from '../../assets/images/toyota-lets-go-places.png';
 import classicBadge from '../../assets/images/classic-toyota-logo-500x501.jpg'
 import whiteToyotaBadge from '../../assets/images/HeaderLogos-ToyotaRacing.png';
-
+//test
 const FooterPresenter = props => {
   return (
     <footer id={"footer"}>
