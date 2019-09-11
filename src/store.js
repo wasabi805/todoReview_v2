@@ -1,15 +1,14 @@
 import { createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
 import MainReducer from "./Logic/reducers";
-
-const initialState = {}; //pre-loaded state
+import thunk from 'redux-thunk';
 
 const middleware = [thunk];
 
 const store = createStore(
   MainReducer,
-  initialState,
-  applyMiddleware(...middleware)
+  applyMiddleware(...middleware),
 );
 
 export default store;
+
+

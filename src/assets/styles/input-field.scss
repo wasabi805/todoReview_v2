@@ -1,0 +1,24 @@
+.input-container{
+  list-style: none;
+  padding: 2rem;
+}
+
+
+.input{
+  border: 1px solid black;
+}
+
+.hor-btn-container{
+  position: relative;
+
+  .btn{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: lightgray;
+    color: black;
+
+  }
+
+}
+

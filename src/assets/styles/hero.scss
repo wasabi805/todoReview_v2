@@ -1,41 +1,16 @@
 #hero {
   position: relative;
+  display: flex;
   z-index: 0;
   border-bottom: 1vh solid white;
+  justify-content: center;
+  min-height: 50vh;
 
-  .overlay {
-    position: absolute;
-    /* min-height: 100vh; */
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #2a1752;
-    z-index: 10;
-    opacity: 0.3;
+  .form{
+    display: inline-block;
+    border: 1px solid black;
   }
 
-  .hero-bg {
-    position: relative;
-    width: 100%;
-    z-index: 0;
-
-    img {
-      width: 100%;
-    }
-
-    :after {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      background: pink;
-    }
-  }
 
   image {
     width: 100%;
