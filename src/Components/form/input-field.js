@@ -2,7 +2,13 @@ import React from 'react';
 
 const InputField = (props)=>{
     return(
-        <input className={'input'}  type={'text'} value={props.value} name={props.name} onChange={props.onchange} />
+        <input
+            className={'input'}
+            type={'text'}
+
+            name={props.name}
+            value={props.value}
+            onChange={props.onchange} />
     )
 };
 

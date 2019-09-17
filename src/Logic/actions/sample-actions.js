@@ -7,30 +7,41 @@ export const timSampleAction = () => {
   };
 };
 
-export const updateInput = (e) => {
-  e.preventDefault();
+export const updateInput = (name, value) => {
 
   return {
     type: 'UPDATE_INPUT',
 
     payload: {
-      name: e.target.name,
-      value: e.target.value
+      name: name,
+      value: value
     }
   };
 };
 
+export const submitEdit = (editedCard , idx)=>{
+    return{
+      type : 'SUBMIT_EDIT',
+      payload :{
+        editedCard :  editedCard,
+        idx : idx
+      }
+    }
+};
 
-const makeCard =(cardData)=>{
+
+
+const addNewCardToShowCardArray =(newCard)=>{
   return{
-    type : "GET_CARD_DATA",
-    payload : cardData
+    type : "ADD_CARD_TO_SHOW_CARDS_ARRAY",
+    payload : {
+      newCard : newCard
+    }
   }
 };
 
-const clearFields = ()=>{
-  console.log('im ready to clear');
 
+const clearFields = ()=>{
   return{
     type : "CLEAR_FIELDS",
     payload : ''
@@ -39,7 +50,11 @@ const clearFields = ()=>{
 };
 
 //Main Async function call make the card for array and clear form
-export const getCardDataAndClearForm = cardData => dispatch=>  {
-  dispatch(makeCard(cardData));
+export const displayCardsAndClearForm = newCard => dispatch=>  {
+
+  dispatch(addNewCardToShowCardArray(newCard));
   dispatch(clearFields())
 };
+
+
+

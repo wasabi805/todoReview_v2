@@ -1,27 +1,37 @@
 .card-wrapper{
   background: #f2f2f2;
   border-radius: 3px;
-  overflow: scroll;
+  //overflow: scroll;
   display: inline-block;
   border: 1px solid black;
   width: 50vw;
   vertical-align: top;
   height: auto;
-  max-height: 50vh;
+  //max-height: 50vh;
 }
 
 
 .card-container{
+  position: relative;
   background: #eef1f6;
   border-radius: 3px;
   margin: 1rem  0;
-  overflow: scroll;
+  //overflow: scroll;
   display: inline-block;
   border: 1px solid black;
   width: 50vw;
   vertical-align: top;
   height: auto;
-  max-height: 50vh;
+  padding-bottom: 4rem;
+  //max-height: 50vh;
+
+  ul{
+    li{
+      line-height: 2rem;
+    }
+  }
+
+
 }
 
 .card-header{
@@ -36,20 +46,3 @@
   }
 }
 
-.card-data{
-  p{
-    display: inline-block;
-  }
-}
-
-.card-btn-actions{
-  padding: 2rem 0;
-
-  a{
-    text-decoration: none;
-    padding: 1rem 2rem;
-    border: 1px solid black;
-    background: lightgray;
-
-  }
-}
